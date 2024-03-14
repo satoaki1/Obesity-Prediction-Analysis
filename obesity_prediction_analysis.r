@@ -37,7 +37,8 @@ library(readr)
 # |============================================================================|
 
 # Read the data from the Excel file
-file_path <- "/Users/ihsa332019/Desktop/Taylor_s Lesson Materials/Data Mining/GroupAssignment/Obesity_Predictive_data.xlsx"
+# (set the absolute path to the excel dataset file)
+file_path <- "path_to_the_file_directory/Obesity_Predictive_data.xlsx"
 data <- read_excel(file_path)
 
 # Basic summary of the data
